@@ -1,0 +1,53 @@
+# Ambiente virtual
+teste_sintrack/
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+.Python
+
+# Flask/SQLite
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE/Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.pot
+*.pid
+*.gz
+
+# Testes e cobertura
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Diretórios de build/distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Arquivos do macOS
+._*
+
+# Arquivos do Windows
+[Tt]humbs.db
+Desktop.ini
