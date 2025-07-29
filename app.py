@@ -204,6 +204,10 @@ def mapa_simples():
         return mapa._repr_html_()
     except Exception as e:
         return f"<h1>Erro no mapa: {e}</h1>"
+    
+@app.route('/favicon.ico')
+def favicon():
+    return '', 404
 
 # ========== INICIALIZAÇÃO ==========
 if __name__ == '__main__':
