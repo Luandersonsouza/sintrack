@@ -187,6 +187,7 @@ def noticias():
         return render_template('noticias.html', noticias=noticias)
     except Exception as e:
         return render_template('noticias.html', noticias=[], erro=str(e))
+    
 
 @app.route('/test')
 def test():
